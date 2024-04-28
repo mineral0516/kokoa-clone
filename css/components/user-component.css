@@ -55,3 +55,15 @@
   display: block;
   font-size: small;
 }
+
+.user-component__warning {
+  display: flex;
+  position: relative;
+}
+
+.user-component__warning i {
+  position: absolute;
+  right: -20px;
+  top: 12px;
+  color: #e94e58;
+}
