@@ -18,7 +18,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.icons-row__icon i:hover {
+.icons-row__icon :hover {
   cursor: pointer;
   color: var(--yellow);
   opacity: 0.6;

@@ -1,0 +1,21 @@
+.settings__setting {
+  padding: 18px 0px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.settings__setting i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: rgba(0,0,0,0.6);
+  opacity: 0.8;
+}
+
+.settings__setting:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+
