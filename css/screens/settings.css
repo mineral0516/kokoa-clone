@@ -4,7 +4,7 @@
   font-size: 16px;
   display: flex;
   align-items: center;
-  transition: all 0.2s ease-in-out;
+  justify-content: space-between;
 }
 
 .settings__setting i {
@@ -14,8 +14,22 @@
   opacity: 0.8;
 }
 
-.settings__setting:hover {
+.settings__setting-column {
+  transition: all 0.2s ease-in-out;
+}
+
+
+.settings__setting-column:hover {
   cursor: pointer;
   color: var(--yellow);
 }
 
+.settings__setting-column:last-child:hover {
+  cursor: auto;
+  color: rgba(0,0,0,0.6);
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+  font-size: 14px;
+}
