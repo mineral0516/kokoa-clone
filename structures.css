@@ -1,0 +1,13 @@
+.color {
+  border: 3px solid white;
+  height: 340px;
+  width: 150px;
+  color: tomato;
+}
+
+.name {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
