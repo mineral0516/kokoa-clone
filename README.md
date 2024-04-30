@@ -1,3 +1,3 @@
 # KoKoa Clone
 
-Html & CSS are so funny!
+Html & CSS are super funny!
