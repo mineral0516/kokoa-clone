@@ -1,0 +1,24 @@
+#no-portrait {
+  position: absolute;
+  z-index: 100;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  display: none;
+}
+
+@media screen and (orientation:landscape)  {
+  #no-portrait {
+    position: fixed;
+    display: flex;
+    }
+  body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  } 
+}
