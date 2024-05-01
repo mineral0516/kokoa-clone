@@ -11,14 +11,15 @@
   align-items: center;
   box-sizing: border-box;
   width: 25%;
-  transition: all 0.2s ease-in-out;
 }
 
 .icons-row__icon i {
   font-size: 25px;
+  transition: all 0.2s ease-in-out;
+
 }
 
-.icons-row__icon :hover {
+.icons-row__icon i:hover {
   cursor: pointer;
   color: var(--yellow);
   opacity: 0.6;

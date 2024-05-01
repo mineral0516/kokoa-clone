@@ -14,12 +14,20 @@
   opacity: 0.8;
 }
 
-.settings__setting-column {
+.settings__setting-column i{
   transition: all 0.2s ease-in-out;
 }
 
+.settings__setting-column span {
+  transition: all 0.2s ease-in-out;
+}
 
-.settings__setting-column:hover {
+.settings__setting-column:hover span{
+  cursor: pointer;
+  color: var(--yellow);
+}
+
+.settings__setting-column:hover i{
   cursor: pointer;
   color: var(--yellow);
 }
